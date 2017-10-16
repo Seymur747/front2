@@ -1,0 +1,60 @@
+#lists{
+	.unl{
+		h3{
+			margin-left: 40px;
+			padding-bottom:20px;
+			color: #262032;
+		}
+		ul{
+			li{list-style: none;
+				line-height: 35px;
+				i{
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+
+	.orl{
+		h3{
+			margin-left: 40px;
+			padding-bottom:20px;
+			color: #262032;
+		}
+		ol{
+			li{
+				padding:0px 10px;
+				line-height: 35px;
+			}
+		}
+	}
+	.iclist{
+		h4{
+			border-bottom: 1px solid grey;
+			
+		}
+		.icon{
+			i{
+				color: #14A5EB;
+			}
+		}
+	}
+	.icons{
+		padding:40px 0px;
+	}
+	.links{
+		padding-top:40px;
+		h4{
+			border-bottom:1px solid grey;
+		}
+		.linkler{
+			padding-top:10px;
+			p{
+				color: #14A5EB;
+				&:first-child{
+					color:#616161;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+#vt{
+	padding:60px;
+	.yaziVt{
+		text-align: center;
+	}
+	.vtUmumi{
+		padding:70px;
+		padding-left:0px;
+
+		.leftVt{
+				div{
+					
+				transition: all 0.5s ease;
+			height: 50px;
+			width: 270px;
+			border: 2px solid #B2B2B2;
+	
+			margin-bottom: 10px;
+			border-radius:30px;
+			&:first-child{
+				background:#3FB6EF;
+			}
+			&:hover{
+				background: #3FB6EF;
+				transition: all 0.5s ease;
+			}
+
+			 p{text-align:center;
+			 	padding-top:15px;
+			 }
+		}
+
+		}
+	}
+	.rightVt{
+	p{
+		color: #747474;
+			margin-left: 20px;
+			line-height: 30px;
+	}
+}}

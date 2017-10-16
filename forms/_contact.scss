@@ -1,0 +1,64 @@
+#contact{
+		h4{
+			color: #CBCBC9;
+			font-weight: bolder;
+		}
+	text-align:center;
+	padding:60px;
+	border-top:1px solid grey;
+	.umum{
+		left: 50%;
+		position: relative;
+	
+		input{
+			width: 260px;
+			height: 50px;
+			background: #F5F5F5;
+			border-radius:30px;
+			padding-left:20px;
+			
+		}
+			
+		}
+		.message{
+			text-align: center;
+			h4{
+				margin-left: 100px;
+			}
+			input{
+				width: 550px;
+				border-radius:40px;
+				height: 100px;
+				background: #F5F5F5;
+				text-align: center;
+				margin-left: 45%;
+			}
+		}
+		.send{
+			input{
+				text-align:center;
+
+		}
+
+}
+.mail{
+	input{
+		width: 210px;
+		height: 50px;
+		background: #F5F5F5;
+		border-radius:40px;
+
+	}
+}
+.mess{
+	height:50px;
+	width:200px;
+	background:#14A5EB;
+	margin-left:106px;
+	margin-top:35px;
+	border-radius:30px;
+	p{
+		padding-top:15px;
+	}
+}
+}

@@ -1,0 +1,43 @@
+#blog{
+	padding:70px 40px;
+	h1{
+		padding-bottom:20px;
+	}
+	.bloglar{
+		.blogWek{
+			height: 240px;
+			width: 370px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.yaziblog{
+			h3{
+				padding-bottom: 15px;
+				color: black;
+			}
+			>p{
+				font-size: 14px;
+				color: #BBC2C5;
+				float: right;
+			}
+			i{
+				color: #BBC2C5;
+			}
+		}
+
+
+	}
+	.rm{
+		color: #14A5EB;
+		float: right;
+		font-size: 14px;
+		cursor: pointer;
+
+
+	}
+	.rm:hover{
+		color: #BBC2C5; 
+	}
+}

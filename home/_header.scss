@@ -1,0 +1,176 @@
+#header{
+	background-image: url("../img/sl1.jpg");
+	  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+min-height:100vh;
+
+
+	.menu{z-index:10;
+		.right{
+			h1{
+				font-family: 'Pacifico', cursive;
+				font-size: 40px;
+			}
+		}
+		border-bottom :1px solid  rgba(0,0,0,0.3);
+		
+		.left{
+			padding: 25px 0px;
+			margin-top: 20px ;
+			.drop{
+				position: relative;
+				ul{
+					position: absolute;
+					li{
+						list-style: none;
+					}
+				}
+			}
+
+			>ul{
+				float: right;
+
+				>li{
+					cursor: point;
+					float: left;
+					list-style-type: none;
+					margin-left: 40px;
+					text-transform: capitalize;
+					&:first-child{
+						color: #227EA7;
+					}
+					
+					>i{
+
+						margin-left: 40px;
+						font-size: 16px;
+					}
+
+
+				}
+			}
+			.iconsHead{
+				i{
+					margin-left: 40px;
+				}
+			}
+
+	
+		}
+	ul > li:hover{
+		color: #227EA7;
+		transition: all .2s ease;
+	}
+
+    }
+    .yaziHead
+		{
+			padding-top:70px;
+			text-align: center;
+			>h3{
+				color: #38424A;
+				font-size: 18px;
+			}
+			>h1{
+				font-size: 60px;
+				padding-bottom:40px;
+			}
+			>p{
+				font-size: 25px;
+				color: #38424A;
+				padding-bottom:60px;
+			}
+
+			.butHead{
+				padding-left: 34%;
+				>div{
+					width: 175px;
+					height: 50px;
+						border-radius :50px;
+					float: left;
+					border:2px solid rgba(0,0,0,0.5);
+					background:transparent;
+
+
+
+				  >p{
+				  	padding-top: 13px;
+				  	}}
+
+				.bat:hover{
+					background:#15A5EC;
+					transition: all .3s ease;
+					cursor: pointer;
+					border:0px;
+					
+					
+
+				}
+				.vf{
+					
+					margin-left: 25px;
+				}
+				.vf:hover{
+					background:#15A5EC;
+					transition: all .3s ease;
+					cursor: pointer;
+					border:0px;
+				}
+			}
+		}
+		.drop{
+			ul{
+				padding-left:0px;
+				top: 10px;
+				background:#123456;
+				padding:0px 90px 0px 30px;
+				z-index: 2;
+				display: none;
+
+				li{
+					line-height: 40px;
+					min-width:167px;
+					border-bottom :0.5px solid #3b479a;
+					color:  #989fd4;
+
+				}
+			}
+		}
+		.drop{
+			top: 35px;
+			ul {
+				li:hover ul{
+					display: block;
+				}
+			}
+		}
+		.exdrop{
+			width: 200px;
+			float: left;
+			position: absolute;
+			li{
+				position: absolute;
+			}
+			h1{
+				font-size: 20px;
+			}
+		}
+		.exdrop:first-child{
+			left: 200px;
+			background:blue;
+		}
+			.exdrop:nth-child(2){
+			right:40px;
+			background:red;
+		}
+		.exdrop:nth-child(3){
+			background:green;
+		}
+		.exdrop:nth-child(4){
+			background:pink;
+			right: 240px;
+		}
+
+}

@@ -1,0 +1,30 @@
+@import 'header';
+@import 'tabsAnd';
+@import 'ht';
+@import 'vt';
+@import 'acord';
+@import 'footer';
+@import 'acord';
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+
+
+}
+	h1{
+		text-align: center;
+		color: #34495E;
+		font-weight: bolder;
+		font-size: 55px;
+		margin-bottom: 20px;
+		text-align: center;
+
+	
+	 }
+	 a{
+	 	text-decoration: none;
+	 }

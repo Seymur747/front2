@@ -1,0 +1,28 @@
+#acord{
+	.item{
+		
+		.heading{
+			border:1px solid #F3F3ED;
+			padding: 10px;
+			h4{
+				display: inline-block;
+			}
+			i{
+				color: #14A5EB;
+				font-size: 20px;
+				margin-right:10px;
+			}
+		}
+	}.yaziAcord{
+		text-align: center;
+		padding-bottom:30px;
+	}
+	.yazi{
+		background: #F5F5F5;
+		padding:20px;
+
+		p{
+			line-height: 22px;
+		}
+	}
+}

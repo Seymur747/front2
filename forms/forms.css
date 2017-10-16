@@ -1,0 +1,386 @@
+#header {
+  background-image: url("../img/sl1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+#header .menu {
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#header .menu .right h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+}
+#header .menu .left {
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+#header .menu .left .drop {
+  position: relative;
+}
+#header .menu .left .drop ul {
+  position: absolute;
+}
+#header .menu .left .drop ul li {
+  list-style: none;
+}
+#header .menu .left > ul {
+  float: right;
+}
+#header .menu .left > ul > li {
+  cursor: point;
+  float: left;
+  list-style-type: none;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+#header .menu .left > ul > li:first-child {
+  color: #227EA7;
+}
+#header .menu .left > ul > li > i {
+  margin-left: 40px;
+  font-size: 16px;
+}
+#header .menu .left .iconsHead i {
+  margin-left: 40px;
+}
+#header .menu ul > li:hover {
+  color: #227EA7;
+  transition: all .2s ease;
+}
+#header .yaziHead {
+  padding-top: 70px;
+  text-align: center;
+}
+#header .yaziHead > h3 {
+  color: #38424A;
+  font-size: 18px;
+}
+#header .yaziHead > h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+#header .yaziHead > p {
+  font-size: 25px;
+  color: #38424A;
+  padding-bottom: 60px;
+}
+#header .yaziHead .butHead {
+  padding-left: 34%;
+}
+#header .yaziHead .butHead > div {
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  float: left;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background: transparent;
+}
+#header .yaziHead .butHead > div > p {
+  padding-top: 13px;
+}
+#header .yaziHead .butHead .bat:hover {
+  background: #15A5EC;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0px;
+}
+#header .yaziHead .butHead .vf {
+  margin-left: 25px;
+}
+#header .yaziHead .butHead .vf:hover {
+  background: #15A5EC;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0px;
+}
+#header .drop ul {
+  padding-left: 0px;
+  top: 10px;
+  background: #123456;
+  padding: 0px 90px 0px 30px;
+  z-index: 2;
+  display: none;
+}
+#header .drop ul li {
+  line-height: 40px;
+  min-width: 167px;
+  border-bottom: 0.5px solid #3b479a;
+  color: #989fd4;
+}
+#header .drop {
+  top: 35px;
+}
+#header .drop ul li:hover ul {
+  display: block;
+}
+
+.het {
+  border-bottom: 1px solid grey;
+}
+.het ul {
+  text-align: center;
+  margin: 30px 0px;
+}
+.het ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  color: #3FB6EF;
+  cursor: pointer;
+}
+.het ul li:first-child:hover {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+.het ul li:nth-child(2):hover {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+.het ul li:last-child {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+
+#ftg {
+  padding: 50px;
+}
+#ftg p {
+  color: #616161;
+  text-align: center;
+  font-size: 18px;
+}
+#ftg .yazi {
+  text-align: center;
+  padding-top: 50px;
+}
+#ftg .yazi h1 {
+  font-weight: bolder;
+  color: #34495E;
+}
+#ftg .butons {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#ftg .butons div {
+  width: 170px;
+  height: 50px;
+  background: blue;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+#ftg .butons div:first-child {
+  background: #547ABB;
+}
+#ftg .butons div:first-child:hover {
+  background: white;
+  border: 2px solid #547ABB;
+  color: #547ABB;
+  transition: all 1s ease;
+}
+#ftg .butons div:nth-child(2) {
+  background: #14A5EB;
+}
+#ftg .butons div:nth-child(2):hover {
+  background: white;
+  border: 2px solid #14A5EB;
+  color: #14A5EB;
+  transition: all 1s ease;
+}
+#ftg .butons div:last-child {
+  background: #E75854;
+}
+#ftg .butons div:last-child:hover {
+  background: white;
+  border: 2px solid #E75854;
+  color: #E75854;
+  transition: all 1s ease;
+}
+#ftg .login {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#ftg .or {
+  text-align: center;
+  padding-top: 30px;
+}
+#ftg .butons a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+#ftg .butons i {
+  font-size: 20px;
+  margin-left: -30px;
+  margin-top: 15px;
+  color: white;
+}
+#ftg .register {
+  text-align: center;
+  color: #CCCCCA;
+}
+#ftg .register h4 {
+  font-weight: bolder;
+}
+#ftg .register input {
+  background: #F5F5F5;
+  border-radius: 30px;
+  height: 50px;
+  width: 500px;
+}
+#ftg .register .enter {
+  background: #00B06C;
+  margin-left: 30%;
+  margin-top: 30px;
+  border-radius: 30px;
+  height: 50px;
+  width: 500px;
+}
+#ftg .register .enter p {
+  margin-top: 10px;
+  line-height: 55px;
+  color: white;
+}
+
+#contact {
+  text-align: center;
+  padding: 60px;
+  border-top: 1px solid grey;
+}
+#contact h4 {
+  color: #CBCBC9;
+  font-weight: bolder;
+}
+#contact .umum {
+  left: 50%;
+  position: relative;
+}
+#contact .umum input {
+  width: 260px;
+  height: 50px;
+  background: #F5F5F5;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+#contact .message {
+  text-align: center;
+}
+#contact .message h4 {
+  margin-left: 100px;
+}
+#contact .message input {
+  width: 550px;
+  border-radius: 40px;
+  height: 100px;
+  background: #F5F5F5;
+  text-align: center;
+  margin-left: 45%;
+}
+#contact .send input {
+  text-align: center;
+}
+#contact .mail input {
+  width: 210px;
+  height: 50px;
+  background: #F5F5F5;
+  border-radius: 40px;
+}
+#contact .mess {
+  height: 50px;
+  width: 200px;
+  background: #14A5EB;
+  margin-left: 106px;
+  margin-top: 35px;
+  border-radius: 30px;
+}
+#contact .mess p {
+  padding-top: 15px;
+}
+
+#sub {
+  background-image: url("../img/b1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+#sub .yazisub {
+  position: relative;
+}
+#sub .yazisub > div {
+  margin-bottom: 120px;
+}
+#sub .yazisub h1 {
+  color: white;
+  margin-left: 32%;
+}
+#sub .yazisub p {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 40px;
+  color: #A3ACB0;
+}
+#sub .yazisub input {
+  position: relative;
+  left: 23%;
+  height: 55px;
+  width: 490px;
+  border-radius: 30px;
+  border: 1px solid #123456;
+  background: #5C646D;
+}
+#sub .butsub {
+  height: 50px;
+  width: 145px;
+  background: #1083BB;
+  position: absolute;
+  right: 20%;
+  bottom: 3px;
+  border-radius: 30px;
+  color: white;
+}
+#sub .butsub h4 {
+  text-align: center;
+  margin-top: 18px;
+}
+#sub .butsub:hover {
+  background: transparent;
+  border: 2px solid #1083BB;
+}
+
+#footer {
+  padding: 40px 40px 0px 40px;
+}
+#footer h1 {
+  color: #343842;
+  margin-left: 40%;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+}
+#footer p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#footer .bot {
+  background: #F5F5F5;
+}
+#footer .bot p {
+  padding-top: 10px;
+  color: #AAB2B6;
+}
+#footer .iconFoot {
+  margin-left: 40%;
+  padding-bottom: 30px;
+}
+#footer .iconFoot i {
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 25px;
+  color: #E1E1E1;
+}
+#footer .iconFoot i:hover {
+  color: #1083BB;
+}

@@ -1,0 +1,180 @@
+#tabsAnd{
+	h3{
+				font-weight: bolder;
+			}
+	padding-bottom:60px;
+	.heb{
+		border-bottom: 1px solid grey;
+		ul{
+			text-align: center;
+			margin: 30px 0px;
+			li{
+				list-style: none;
+				display: inline-block;
+				margin-right: 20px;
+				color: #3FB6EF;
+				cursor: pointer;
+
+			}
+			li:first-child:hover{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+			
+				li:nth-child(2):hover{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+			li:last-child{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+		}
+	}
+	.yaziTab{
+		text-align: center;
+		padding-top:60px;
+	}
+	p{
+		color: #868686;
+		font-size: 18px;
+	}
+	 a{
+	 	text-decoration: none;
+	 }
+	.butsize{
+		padding:70px;
+		text-align: center;
+
+		
+		.buttons{
+			border-bottom:1px solid grey;
+			padding:50px;
+			div{
+				transition: all 0.5s ease;
+			}
+			div:hover{
+				background:white;
+			color: black;
+			border:2px solid #14A5EB
+
+
+			}
+			.button{
+				display: inline-block;
+				margin-right: 30px;
+				border-radius:10px;
+				&:first-child{
+					width: 275px;
+					height: 80px;
+					background: #14A5EB;
+					color: white;
+				}
+				&:nth-child(2){
+					width: 230px;
+					height: 65px;
+					background: #14A5EB;
+					color: white;
+				}
+
+			}
+	
+		}
+		.small1{
+
+			width: 185px;
+					height: 55px;
+					background: #14A5EB;
+					color: white;
+					display: inline-block;
+					position: relative;
+					top: 3px;
+					border-radius:10px;
+
+		}
+			.small2{
+			width: 130px;
+					height: 45px;
+					background: #14A5EB;
+					color: white;
+					display: inline-block;
+					position: relative;
+					top: 7px;
+					left: 20px;
+					border-radius:10px;
+
+		}
+
+
+		.shapes {
+			height: 60px;
+			width: 220px;
+			background: #14A5EB;
+					color: white;
+					display: inline-block;
+					margin-left:2px;
+					&:first-child{
+					border-radius:3px;
+					}
+						&:nth-child(2){
+						border-radius:10px;	
+					}
+		
+			&:nth-child(3){
+						
+					}
+		
+			&:last-child{
+						border-radius:50px;	
+					}
+		
+		
+	}
+		.iconsbut {
+			height: 60px;
+			width: 220px;
+			background: #14A5EB;
+					color: white;
+					display: inline-block;
+					margin-left:2px;
+					border-radius:10px;
+					
+			&:nth-child(3){
+				background:white;
+				border:2px solid grey;
+				color: black;
+				box-sizing:border-box;
+						
+					}
+		
+			&:last-child{
+						
+						background:white;
+						border:2px solid grey;
+						color: black;
+						box-sizing:border-box;
+					}
+					
+		
+	}
+		.shadow {
+			height: 60px;
+			width: 220px;
+			background: #14A5EB;
+					color: white;
+					display: inline-block;
+					margin-left:2px;
+					border-radius:50px;
+
+						&:nth-child(2){
+					background: white;
+					color: black;
+					border:2px solid grey;
+					}
+		
+					
+		
+	}
+}
+	
+}

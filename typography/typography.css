@@ -1,0 +1,307 @@
+#header {
+  background-image: url("../img/sl1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+#header .menu {
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#header .menu .right h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+}
+#header .menu .left {
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+#header .menu .left .drop {
+  position: relative;
+}
+#header .menu .left .drop ul {
+  position: absolute;
+}
+#header .menu .left .drop ul li {
+  list-style: none;
+}
+#header .menu .left > ul {
+  float: right;
+}
+#header .menu .left > ul > li {
+  cursor: point;
+  float: left;
+  list-style-type: none;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+#header .menu .left > ul > li:first-child {
+  color: #227EA7;
+}
+#header .menu .left > ul > li > i {
+  margin-left: 40px;
+  font-size: 16px;
+}
+#header .menu .left .iconsHead i {
+  margin-left: 40px;
+}
+#header .menu ul > li:hover {
+  color: #227EA7;
+  transition: all .2s ease;
+}
+#header .yaziHead {
+  padding-top: 70px;
+  text-align: center;
+}
+#header .yaziHead > h3 {
+  color: #38424A;
+  font-size: 18px;
+}
+#header .yaziHead > h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+#header .yaziHead > p {
+  font-size: 25px;
+  color: #38424A;
+  padding-bottom: 60px;
+}
+#header .yaziHead .butHead {
+  padding-left: 34%;
+}
+#header .yaziHead .butHead > div {
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  float: left;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background: transparent;
+}
+#header .yaziHead .butHead > div > p {
+  padding-top: 13px;
+}
+#header .yaziHead .butHead .bat:hover {
+  background: #15A5EC;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0px;
+}
+#header .yaziHead .butHead .vf {
+  margin-left: 25px;
+}
+#header .yaziHead .butHead .vf:hover {
+  background: #15A5EC;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0px;
+}
+#header .drop ul {
+  padding-left: 0px;
+  top: 10px;
+  background: #123456;
+  padding: 0px 90px 0px 30px;
+  z-index: 2;
+  display: none;
+}
+#header .drop ul li {
+  line-height: 40px;
+  min-width: 167px;
+  border-bottom: 0.5px solid #3b479a;
+  color: #989fd4;
+}
+#header .drop {
+  top: 35px;
+}
+#header .drop ul li:hover ul {
+  display: block;
+}
+
+#headings .het {
+  border-bottom: 1px solid grey;
+}
+#headings .het ul {
+  text-align: center;
+  margin: 30px 0px;
+}
+#headings .het ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  color: #3FB6EF;
+  cursor: pointer;
+}
+#headings .het ul li:first-child:hover {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+#headings .het ul li:nth-child(2):hover {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+#headings .het ul li:last-child {
+  color: #BBB0B4;
+  transition: all 1s ease;
+}
+#headings .basliglar {
+  padding: 30px 60px;
+}
+
+#quote .blockquote h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+#quote .steve {
+  width: 770px;
+  height: 170px;
+  background: #F5F5F5;
+  padding: 30px;
+  margin-top: 50px;
+}
+#quote .steve .jobs {
+  padding: 30px;
+  padding-top: 15px;
+}
+#quote .hte {
+  padding: 40px;
+  padding-left: 0px;
+}
+#quote .hte h1 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+}
+#quote .hte .elem {
+  padding: 30px 0px;
+}
+#quote .hte .elem mark {
+  background: #14A5EB;
+}
+
+#lists .unl h3 {
+  margin-left: 40px;
+  padding-bottom: 20px;
+  color: #262032;
+}
+#lists .unl ul li {
+  list-style: none;
+  line-height: 35px;
+}
+#lists .unl ul li i {
+  margin-right: 10px;
+}
+#lists .orl h3 {
+  margin-left: 40px;
+  padding-bottom: 20px;
+  color: #262032;
+}
+#lists .orl ol li {
+  padding: 0px 10px;
+  line-height: 35px;
+}
+#lists .iclist h4 {
+  border-bottom: 1px solid grey;
+}
+#lists .iclist .icon i {
+  color: #14A5EB;
+}
+#lists .icons {
+  padding: 40px 0px;
+}
+#lists .links {
+  padding-top: 40px;
+}
+#lists .links h4 {
+  border-bottom: 1px solid grey;
+}
+#lists .links .linkler {
+  padding-top: 10px;
+}
+#lists .links .linkler p {
+  color: #14A5EB;
+}
+#lists .links .linkler p:first-child {
+  color: #616161;
+}
+
+#centered {
+  padding-bottom: 60px;
+  border-bottom: 1px solid grey;
+}
+#centered p {
+  color: #616161;
+}
+#centered .umumi .wekCenter {
+  box-shadow: 0px 0px 20px;
+  height: 700px;
+  width: 1170px;
+  padding-bottom: 40px;
+}
+#centered .umumi .altyazi {
+  margin-top: 50px;
+}
+#centered .umumi .altyazi p {
+  margin-top: 30px;
+}
+#centered .left2 p {
+  padding: 40px 30px;
+  line-height: 18px;
+}
+#centered .left2 .leftimg {
+  height: 340px;
+  width: 570px;
+}
+#centered .left2 .leftimg img {
+  height: 100%;
+  width: 100%;
+}
+#centered .right2 p {
+  padding: 40px 30px;
+  line-height: 18px;
+}
+#centered .right2 .rightimg {
+  height: 430px;
+  width: 570px;
+  margin-top: 80px;
+}
+#centered .right2 .rightimg img {
+  height: 100%;
+  width: 100%;
+}
+#centered h4 {
+  border-bottom: 1px solid grey;
+}
+
+#footer {
+  padding: 40px 40px 0px 40px;
+}
+#footer h1 {
+  color: #343842;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+#footer p {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+#footer .bot {
+  background: #F5F5F5;
+}
+#footer .bot p {
+  padding-top: 10px;
+  color: #AAB2B6;
+}
+#footer .iconFoot {
+  margin-left: 40%;
+  padding-bottom: 30px;
+}
+#footer .iconFoot i {
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 25px;
+  color: #E1E1E1;
+}
+#footer .iconFoot i:hover {
+  color: #1083BB;
+}

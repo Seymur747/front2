@@ -1,0 +1,201 @@
+#header {
+  background-image: url("../img/header-6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 120vh;
+}
+#header .menu {
+  z-index: 10;
+  border-bottom-left-radius: 20px;
+  transition: all 1s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#header .menu .right h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+#header .menu .left {
+  padding: 25px 0px;
+  margin-top: 20px;
+}
+#header .menu .left .drop {
+  position: relative;
+}
+#header .menu .left .drop ul {
+  position: absolute;
+}
+#header .menu .left .drop ul li {
+  list-style: none;
+}
+#header .menu .left > ul {
+  float: right;
+}
+#header .menu .left > ul > li {
+  cursor: point;
+  float: left;
+  list-style-type: none;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+#header .menu .left > ul > li:first-child {
+  color: #227EA7;
+}
+#header .menu .left > ul > li > i {
+  margin-left: 40px;
+  font-size: 16px;
+}
+#header .menu .left .iconsHead i {
+  margin-left: 40px;
+}
+#header .menu ul > li:hover {
+  color: #227EA7;
+  transition: all .2s ease;
+}
+#header .yaziHead {
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+}
+#header .yaziHead a {
+  color: white;
+  text-decoration: none;
+}
+#header .yaziHead h3 {
+  color: #38424A;
+  color: white;
+  font-size: 70px;
+}
+#header .yaziHead > h1 {
+  font-size: 100px;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+#header .yaziHead p {
+  font-size: 14px;
+  color: white;
+  padding-bottom: 60px;
+}
+#header .yaziHead .butHead {
+  padding-left: 34%;
+}
+#header .yaziHead .butHead > div {
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  float: left;
+  border: 2px solid white;
+  margin-left: 100px;
+  background: transparent;
+}
+#header .yaziHead .butHead > div > p {
+  padding-top: 13px;
+}
+#header .yaziHead .butHead .bat:hover {
+  background: #15A5EC;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0px;
+}
+#header .drop ul {
+  padding-left: 0px;
+  top: 10px;
+  background: #123456;
+  padding: 0px 90px 0px 30px;
+  z-index: 2;
+  display: none;
+}
+#header .drop ul li {
+  line-height: 40px;
+  min-width: 167px;
+  border-bottom: 0.5px solid #3b479a;
+  color: #989fd4;
+}
+#header .drop {
+  top: 35px;
+}
+#header .drop ul li:hover ul {
+  display: block;
+}
+#header .exdrop {
+  width: 200px;
+  float: left;
+  position: absolute;
+}
+#header .exdrop li {
+  position: absolute;
+}
+#header .exdrop h1 {
+  font-size: 20px;
+}
+#header .exdrop:first-child {
+  left: 200px;
+  background: blue;
+}
+#header .exdrop:nth-child(2) {
+  right: 40px;
+  background: red;
+}
+#header .exdrop:nth-child(3) {
+  background: green;
+}
+#header .exdrop:nth-child(4) {
+  background: pink;
+  right: 240px;
+}
+#header .timer {
+  padding-bottom: 60px;
+}
+#header .timer .time {
+  display: inline-block;
+  height: 165px;
+  width: 165px;
+  background: transparent;
+  border: 2px solid white;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+#header .timer .time h3 {
+  margin-top: 60px;
+  font-size: 45px;
+  color: rgba(58, 24, 104, 0.59);
+  font-weight: bolder;
+}
+#header .domain {
+  position: relative;
+}
+
+#footer {
+  padding: 40px 40px 0px 40px;
+}
+#footer h1 {
+  color: #343842;
+  margin-left: 40%;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+}
+#footer p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#footer .bot {
+  background: #F5F5F5;
+}
+#footer .bot p {
+  padding-top: 10px;
+  color: #AAB2B6;
+}
+#footer .iconFoot {
+  margin-left: 40%;
+  padding-bottom: 30px;
+}
+#footer .iconFoot i {
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 25px;
+  color: #E1E1E1;
+}
+#footer .iconFoot i:hover {
+  color: #1083BB;
+}

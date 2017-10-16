@@ -1,0 +1,35 @@
+#headings{
+	
+	.het{
+		border-bottom: 1px solid grey;
+		ul{
+			text-align: center;
+			margin: 30px 0px;
+			li{
+				list-style: none;
+				display: inline-block;
+				margin-right: 20px;
+				color: #3FB6EF;
+				cursor: pointer;
+
+			}
+			li:first-child:hover{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+			
+				li:nth-child(2):hover{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+			li:last-child{
+				color:#BBB0B4 ;
+				transition: all 1s ease;
+			}
+		}
+	}
+	.basliglar{
+		padding:30px 60px;
+	}
+}
+		

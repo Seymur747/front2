@@ -1,0 +1,39 @@
+#ht{
+	padding:60px;
+	.htt{
+		text-align:center;
+		h3{
+				color: #262032;
+		font-weight: bolder;
+		}
+	}
+	.htm{
+		text-align: center;
+		div{
+				transition: all 0.5s ease;
+			height: 50px;
+			width: 100px;
+			border: 2px solid #B2B2B2;
+			display: inline-block;
+			margin: 40px 10px;
+			border-radius:30px;
+			&:first-child{
+				background:#3FB6EF;
+			}
+				&:hover{
+				background: #3FB6EF;
+				transition: all 0.5s ease;
+			}
+			 p{
+			 	padding-top:15px;
+			 }
+		}
+	}
+	.htb{
+		padding: 20px 80px;
+	}
+	p{
+		color: #747474;
+	}
+
+}

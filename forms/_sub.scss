@@ -1,0 +1,53 @@
+#sub{
+	background-image:url("../img/b1.jpg");
+	  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+	padding:60px;
+
+	
+	.yazisub{
+		position: relative;
+		>div{
+			margin-bottom: 120px;
+		}
+		h1{
+		color: white;
+		margin-left: 32%;
+		}
+		p{
+			text-align:center;
+			font-size: 15px;
+			padding-bottom:40px;
+			color: #A3ACB0;
+		}
+		input{
+		position: relative;
+		left: 23%;
+		height: 55px;
+		width: 490px;
+		border-radius: 30px;
+		border:1px solid #123456;
+		background:#5C646D;
+		}
+	}
+	.butsub{
+		height: 50px;
+		width: 145px;
+		background:#1083BB;
+		position: absolute;
+		right: 20%;
+		bottom:3px;
+		border-radius:30px;
+		color: white;
+
+		h4{
+			text-align: center;
+			margin-top: 18px;
+		}
+	}
+	.butsub:hover{
+		background:transparent;
+		border:2px solid #1083BB;
+	}
+}

@@ -1,0 +1,57 @@
+#centered{
+	padding-bottom:60px;
+	border-bottom:1px solid grey;
+	p{
+		color: #616161;
+	}
+	.umumi{
+		.wekCenter{
+			box-shadow:0px 0px 20px;
+			height: 700px;
+			width: 1170px;
+			padding-bottom: 40px;
+
+		}
+			.altyazi{
+				margin-top:50px;
+				p{
+					margin-top: 30px;
+				}
+			}
+
+	}
+	.left2{
+		p{
+			padding:40px 30px;
+			line-height: 18px;
+		}
+		.leftimg{
+
+			height: 340px;
+			width: 570px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+	.right2{
+		p{
+			padding:40px 30px;
+			line-height: 18px;
+		}
+		.rightimg{
+
+			height: 430px;
+			width: 570px;
+			margin-top: 80px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+	h4{
+		border-bottom: 1px solid grey;
+	}
+}

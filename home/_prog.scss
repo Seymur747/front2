@@ -1,0 +1,71 @@
+#prog{
+	padding:50px 0px;
+	border-bottom: 0.5px solid darkgray;
+	.progLeft{
+		p{
+		margin-left: 100px;
+		font-size: 17px;
+		}
+	}
+	.progRight{
+		padding-top:120px;
+		>p{
+			color: #868686;
+
+		}
+		.progresler{
+
+			div{
+				height: 15px;
+				border-radius: 10px;
+		
+			}
+			.bigProg{
+				margin-bottom: 40px;
+			border:1px solid grey;
+			}
+		}
+
+	}
+	.smalProg{
+		position: relative !important ;
+			height: 100%;
+			width: 0px;
+		background: linear-gradient(to right, #FB4182, #1996D7);
+		}
+		.hesab{
+				border-right:1px solid grey;
+				background:#2D344D;
+				height: 175px;
+				margin: 0px -15px;
+
+
+			h1{
+				
+				padding-top:40px;
+				color: white;
+
+			}
+			h6{
+				text-align: center;
+				color: #A8ABB5;
+			}
+		}
+		.brands{
+				padding: 70px 70px 30px 70px ;
+			div{
+				width: 16.66%;
+				
+			
+				float: left;
+			
+				
+			}
+		}
+		.percent{
+			
+			position: absolute;
+			right: 0px;
+		}
+
+}
